@@ -1,8 +1,6 @@
 name: "Template para definição de macro etapa"
 description: "Utilizar este template para definição de backlog macro do projeto"
 title: "[Definição de Macro etapa]"
-labels: []
-assignees: []
 
 body:
   - type: markdown
