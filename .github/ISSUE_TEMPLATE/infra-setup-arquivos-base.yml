@@ -1,6 +1,6 @@
-name: "[MacroEtapa: Infraestrutura]"
-description: "Backlog [Macroetapa: Infra-Setup]"
-title: "[Infraestrutura] - Definição de comandos Makefile, criação artefatos Docker"
+name: "[MacroEtapa: Infra-Setup]"
+description: "Template para definição de Backlog macro de Infraestrutura]"
+title: "Define as necessidades de infrastrutura do projeto"
 labels:
   - tipo:macroetapa
   - area:infra
