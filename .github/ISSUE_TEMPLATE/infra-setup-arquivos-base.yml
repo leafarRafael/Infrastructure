@@ -26,24 +26,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: dockerfiles
-    attributes:
-      label: Dockerfiles a serem criados
-      description: Quais serviços precisarão de Dockerfile?
-      placeholder: Ex nginx, postgresql, aspnet, angular
-    validations:
-      required: true
-
-  - type: textarea
-    id: compose
-    attributes:
-      label: docker-compose - Requisitos
-      description: O que o docker-compose precisa gerenciar? (redes, volumes, serviços...)
-      placeholder: Ex Gerenciar as imagens criadas, volumes compartilhados, redes entre os containers
-    validations:
-      required: true
-
   - type: checkboxes
     id: checklist
     attributes:
