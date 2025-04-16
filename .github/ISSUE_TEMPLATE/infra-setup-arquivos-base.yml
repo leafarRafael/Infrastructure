@@ -33,6 +33,4 @@ body:
       description: Marque os itens conforme forem sendo implementados
       options:
         - label: Makefile criado com comandos básicos
-        - label: Dockerfiles criados para todos os serviços
-        - label: docker-compose.yml funcional com redes e volumes
-        - label: Testes de build realizados com sucesso
+
