@@ -1,17 +1,18 @@
-name: "Template para definição de macro etapa"
-description: "Utilizar este template para definição de backlog macro do projeto"
-title: "[Definição de Macro etapa]"
+name: "[MacroEtapa: Infraestrutura]"
+description: "Backlog [Macroetapa: Infra-Setup]"
+title: "[Infraestrutura] - Definição de comandos Makefile, criação artefatos Docker"
 labels:
-  - macro
-  - infra
+  - tipo:macroetapa
+  - area:infra
+  - prioridade:alta
 assignees:
-  - leafarRafael
+  - leafarRafael-Dev
   
 body:
   - type: markdown
     attributes:
       value: |
-        Preencha os campos abaixo para detalhar a tarefa de criação da base da infraestrutura.
+        Necessidades macro para criação da infraestrutura basica do projeto.
 
   - type: input
     id: objetivo
