@@ -1,42 +1,35 @@
-name: "[Macroetapa]: Infra-Setup"
-description: "Template para definição de Backlog macro de Infraestrutura]"
-title: "Adicione o titulo de backlog"
-labels:
-  - tipo:macroetapa
-  - area:infra
-  - prioridade:alta
+name: "EPIC template"
+description: "This template is intended for creating project epics"
+title: "Ex: [EPIC] Infrastructure; [EPIC] Backend; [EPIC] Frontend"
+labels: epic
+
 assignees:
   - leafarRafael-Dev
-  
-body:
-  - type: markdown
-    attributes:
-      value: |
-        "Definição das necessidades de infrastrutura do projeto"
 
+body:
   - type: input
-    id: objetivo
+    id: short-description
     attributes:
-      label: Objetivo
-      description: Qual o objetivo principal desta tarefa?
-      placeholder: Ex Configurar arquivos essenciais para orquestração com Docker.
-    validations:
-      required: true
+      label: "Short description"
+      description: "Describe the objectives of this EPIC"
+      placeholder: "Describe the objectives of this epic here"
 
   - type: textarea
-    id: makefile
+    id: description
     attributes:
-      label: Makefile - Comandos esperados
-      description: Liste os comandos que deverão estar presentes no Makefile.
-      placeholder: Ex build, install, run, stop, clean
-    validations:
-      required: true
+      label: "Detailed description"
+      description: "Describe the elements that are part of this epic."
+      placeholder: "Describe in detail the scope, context and components of this epic"
 
-  - type: checkboxes
-    id: checklist
+  - type: textarea
+    id: related-issues
     attributes:
-      label: Checklist
-      description: Marque os itens conforme forem sendo implementados
-      options:
-        - label: Makefile criado com comandos básicos
+      label: "Related Stories / Issues"
+      description: "List all stories or tasks related to this epic"
+      placeholder: "- [ ] #123 Create VPC\n- [ ] #124 Configure CI/CD"
 
+  - type: textarea
+    attributes:
+      label: "Define EPIC acceptance criteria"
+      description: "Type as per the example to create checkboxes"
+      placeholder: "- [ ] Item 1\n- [ ] Item 2\n- [ ] Item 3"
