@@ -1,0 +1,28 @@
+name: "[User Story] template"
+description: "This template aims to create user stories."
+title: "Report here what needs to be done"
+labels: story
+
+assignees:
+  - leafarRafael-Dev
+
+body:
+  - type: textarea
+    id: description
+    atribute:
+      label: "Context"
+      description: "Ex: As a developer, I would like automation X"
+      placeholder: "Ex: As a developer, I would like automation X"
+
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: "Related Task/Issues"
+      description: "List all task/issues related to this story"
+      placeholder: "- [ ] #123 Create VPC\n- [ ] #124 Configure CI/CD"
+
+  - type: textarea
+    attributes:
+      label: "Define EPIC acceptance criteria"
+      description: "Type as per the example to create checkboxes"
+      placeholder: "- [ ] Item 1\n- [ ] Item 2\n- [ ] Item 3"
