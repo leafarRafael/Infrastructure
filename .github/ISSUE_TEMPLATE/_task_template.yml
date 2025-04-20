@@ -1,4 +1,4 @@
-name: "EPIC template"
+name: "[Task] template"
 description: "This template is intended for creating project epics"
 title: "Ex: [EPIC] Infrastructure; [EPIC] Backend; [EPIC] Frontend"
 labels: epic
