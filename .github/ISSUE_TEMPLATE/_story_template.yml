@@ -12,14 +12,12 @@ body:
     attributes:
       label: "Objectively, what should be done?"
       description: "Ex: Automate software installation flow; Create ssl for https connection;"
-      placeholder: ""
 
   - type: textarea
     id: description
     attributes:
       label: "Give a brief description of the problem: "
       description: "Ex: As a developer, I would like automation X"
-      placeholder: ""
 
   - type: textarea
     id: description
