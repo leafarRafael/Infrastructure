@@ -10,7 +10,7 @@ body:
   - type: textarea
     id: description
     atribute:
-      label: "Context"
+      label: "context"
       description: "Ex: As a developer, I would like automation X"
       placeholder: "Ex: As a developer, I would like automation X"
 
