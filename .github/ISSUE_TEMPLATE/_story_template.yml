@@ -9,7 +9,7 @@ assignees:
 body:
   - type: textarea
     id: description
-    atribute:
+    attribute:
       label: "context"
       description: "Ex: As a developer, I would like automation X"
       placeholder: "Ex: As a developer, I would like automation X"
