@@ -31,6 +31,6 @@ body:
     attributes:
       label: "Acceptance criteria"
       placeholder: |
-        - [ ] Verifica antes de tudo, se ja estava installado
-        - [ ] Instala a partir de fontes confiaveis.
-        - [ ] Atribui as permissões necessarias
+        - [ ] Checks first if it was already installed.
+        - [ ] Installs from trusted sources.
+        - [ ] Assigns the necessary permissions
