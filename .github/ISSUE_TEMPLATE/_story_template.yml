@@ -1,6 +1,6 @@
 name: "[User Story] template"
 description: "This template aims to create user stories."
-title: "Report here what needs to be done"
+title: "Write a short and clear title. Ex. Automate installation of software 'X'"
 labels: story
 
 assignees:
@@ -10,28 +10,38 @@ body:
   - type: input
     attributes:
       label: "Objectively, what should be done?"
-      description: "Ex: Automate software installation flow; Create ssl for https connection;"
+      placeholder: |
+        "Ex: Automate software installation flow; Create ssl for https connection;"
 
   - type: textarea
     attributes:
-      label: "Give a brief description of the problem: "
-      description: "Ex: As a developer, I would like automation X"
+      label: "Give a brief description of the problem."
+      placeholder: |
+        "Ex: As a developer, I would like automation X"
 
   - type: textarea
     attributes:
       label: "Objectively, how would this solve the problem?"
-      description: "Ex: As a developer, I would like automation X"
-      placeholder: "Ex: Ensures that the environment is configured with the correct dependencies; Increases security between the client and the service."
+      placeholder: |
+        Ex: Ensures that the environment is configured with the correct dependencies;
+        Increases security between the client and the service.
 
+  - type: dropdown
+    attributes:
+      label: "Priority"
+      options:
+      - high
+      - medium
+      - low
 
   - type: textarea
     attributes:
       label: "Related Task/Issues"
       description: "List all task/issues related to this story"
-      placeholder: "- [ ] #123 Create VPC\n- [ ] #124 Configure CI/CD"
+      placeholder: "- [ ] #1 Create command 'build' \n- [ ] #2 Configure ssl"
 
   - type: textarea
     attributes:
-      label: "Define EPIC acceptance criteria"
+      label: "Acceptance criteria"
       description: "Type as per the example to create checkboxes"
       placeholder: "- [ ] Item 1\n- [ ] Item 2\n- [ ] Item 3"
