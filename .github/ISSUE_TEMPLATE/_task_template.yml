@@ -50,7 +50,7 @@ body:
     attributes:
       value: |
         ### ✅ Definition of Done
-                - [ ] Code reviewed and approved
-                - [ ] Tests passing (unit/integration if applicable)
-                - [ ] Documentation updated (README or internal docs)
-                - [ ] Merged into the appropriate branch
+        - [ ] Code reviewed and approved
+        - [ ] Tests passing (unit/integration if applicable)
+        - [ ] Documentation updated (README or internal docs)
+        - [ ] Merged into the appropriate branch
