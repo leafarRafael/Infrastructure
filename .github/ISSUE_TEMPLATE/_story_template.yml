@@ -44,7 +44,6 @@ body:
   - type: textarea
     attributes:
       label: "Acceptance criteria"
-      description: "Type as per the example to create checkboxes"
       placeholder: |
         - [ ] Item 1
         - [ ] Item 2

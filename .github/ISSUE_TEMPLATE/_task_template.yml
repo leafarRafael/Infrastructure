@@ -5,13 +5,13 @@ labes: task
 
 body:
   - type: input
-    attribute:
+    attributes:
       label: "Task to be performed"
       description: |
         Ex. Create install command in Makefile
 
   - type: textarea
-    attribute:
+    attributes:
       label: "Describe the details of this task."
       placeholder: |
         Example:
@@ -30,7 +30,6 @@ body:
   - type: textarea
     attributes:
       label: "Acceptance criteria"
-      description: "Type as per the example to create checkboxes"
       placeholder: |
         - [ ] Verifica antes de tudo, se ja estava installado
         - [ ] Instala a partir de fontes confiaveis.
