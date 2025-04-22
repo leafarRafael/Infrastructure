@@ -8,19 +8,16 @@ assignees:
 
 body:
   - type: input
-    id: description
     attributes:
       label: "Objectively, what should be done?"
       description: "Ex: Automate software installation flow; Create ssl for https connection;"
 
   - type: textarea
-    id: description
     attributes:
       label: "Give a brief description of the problem: "
       description: "Ex: As a developer, I would like automation X"
 
   - type: textarea
-    id: description
     attributes:
       label: "Objectively, how would this solve the problem?"
       description: "Ex: As a developer, I would like automation X"
@@ -28,7 +25,6 @@ body:
 
 
   - type: textarea
-    id: related-issues
     attributes:
       label: "Related Task/Issues"
       description: "List all task/issues related to this story"
