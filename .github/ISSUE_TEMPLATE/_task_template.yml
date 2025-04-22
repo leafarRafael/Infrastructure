@@ -42,6 +42,8 @@ body:
         - [ ] Checks first if it was already installed.
         - [ ] Installs from trusted sources.
         - [ ] Assigns the necessary permissions
+    validations:
+      required: true
 
 
   - type: markdown
@@ -52,3 +54,5 @@ body:
         - [ ] Tests passing (unit/integration if applicable)
         - [ ] Documentation updated (README or internal docs)
         - [ ] Merged into the appropriate branch
+    validations:
+      required: true
