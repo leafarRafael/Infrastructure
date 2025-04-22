@@ -39,12 +39,12 @@ body:
     attributes:
       label: "Acceptance criteria"
       placeholder: |
-        - [ ] Checks first if it was already installed.
-        - [ ] Installs from trusted sources.
-        - [ ] Assigns the necessary permissions
+        ### Acceptance Criteria Example:
+        - [ ] Feature works in Chrome, Firefox and Safari
+        - [ ] Load time under 2s for 95% of requests
+        - [ ] Mobile responsive design
     validations:
       required: true
-
 
   - type: markdown
     attributes:

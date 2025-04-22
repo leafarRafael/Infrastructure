@@ -26,10 +26,15 @@ body:
     attributes:
       label: "Related Stories / Issues"
       description: "List all stories or tasks related to this epic"
-      placeholder: "- [ ] #123 Create VPC\n- [ ] #124 Configure CI/CD"
+      placeholder: | 
+        - [ ] #1 Create VPC
+        - [ ] #2 Configure CI/CD"
 
   - type: textarea
     attributes:
       label: "Acceptance criteria"
       description: "Type as per the example to create checkboxes"
-      placeholder: "- [ ] Item 1\n- [ ] Item 2\n- [ ] Item 3"
+      placeholder: |
+        - [ ] Item 1
+        - [ ] Item 2
+        - [ ] Item 3
