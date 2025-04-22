@@ -1,6 +1,7 @@
-name: "[Task/Feature]"
+name: "Task: Implementation or Feature Request"
 description: "This template is intended for creating tasks."
-title: "Ex. Creating a Dockerfile with nginx software; configuring ssl for https connections;"
+
+title: "Ex 00: [Task] Creating a Dockerfile with nginx software; Ex 01: Configuring ssl for https connections;"
 labels: task
 
 body:
@@ -8,16 +9,21 @@ body:
     attributes:
       label: "Task to be performed"
       description: |
-        Ex. Create install command in Makefile
+        Briefly describe what must be done.
+        Exemple: Create install command in Makefile
+      validations:
+        required: true
 
   - type: textarea
     attributes:
       label: "Describe the details of this task."
       placeholder: |
         Example:
-        Docker software installation automation;
-        Expected version 1.2.3;
-        You should check if the software is already installed;
+         - Automate the installation of Docker
+         - Expected version: 1.2.3
+         - Ensure idempotency: check if Docker is already installed
+    validations:
+      required: true
 
   - type: dropdown
     attributes:
@@ -26,6 +32,8 @@ body:
       - high
       - medium
       - low
+    validations:
+      required: true
 
   - type: textarea
     attributes:
@@ -34,3 +42,5 @@ body:
         - [ ] Checks first if it was already installed.
         - [ ] Installs from trusted sources.
         - [ ] Assigns the necessary permissions
+    validations:
+      required: true
