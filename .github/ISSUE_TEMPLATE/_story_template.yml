@@ -37,10 +37,15 @@ body:
     attributes:
       label: "Related Task/Issues"
       description: "List all task/issues related to this story"
-      placeholder: "- [ ] #1 Create command 'build' \n- [ ] #2 Configure ssl"
+      placeholder: |
+        - [ ] #1 Create command 'build'
+        - [ ] #2 Configure ssl
 
   - type: textarea
     attributes:
       label: "Acceptance criteria"
       description: "Type as per the example to create checkboxes"
-      placeholder: "- [ ] Item 1\n- [ ] Item 2\n- [ ] Item 3"
+      placeholder: |
+        - [ ] Item 1
+        - [ ] Item 2
+        - [ ] Item 3

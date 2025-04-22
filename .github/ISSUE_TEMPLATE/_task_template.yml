@@ -1,11 +1,37 @@
 name: "[Task/Feature]"
 description: "This template is intended for creating tasks."
-title: "Ex. Create functionality 'X' in project 'N'; Configure ssl for https protocol;"
+title: "Ex. Creating a Dockerfile with nginx software; configuring ssl for https connections;"
 labes: task
 
 body:
-  - type: textarea
-    id: description
+  - type: input
     attribute:
-      label: context
-      
+      label: "Task to be performed"
+      description: |
+        Ex. Create install command in Makefile
+
+  - type: textarea
+    attribute:
+      label: "Describe the details of this task."
+      placeholder: |
+        Example:
+        Docker software installation automation;
+        Expected version 1.2.3;
+        You should check if the software is already installed;
+
+  - type: dropdown
+    attributes:
+      label: "Priority"
+      options:
+      - high
+      - medium
+      - low
+
+  - type: textarea
+    attributes:
+      label: "Acceptance criteria"
+      description: "Type as per the example to create checkboxes"
+      placeholder: |
+        - [ ] Verifica antes de tudo, se ja estava installado
+        - [ ] Instala a partir de fontes confiaveis.
+        - [ ] Atribui as permissões necessarias
