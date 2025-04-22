@@ -1,7 +1,13 @@
 name: "Task: Implementation or Feature Request"
 description: "This template is intended for creating tasks."
 
-title: "Ex 00: [Task] Creating a Dockerfile with nginx software; Ex 01: Configuring ssl for https connections;"
+title: |
+  Exemple 00:
+    [Task] Creating a Dockerfile with nginx software;
+  
+  Exemple 01:
+    Configuring ssl for https connections;
+
 labels: task
 
 body:
