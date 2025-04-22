@@ -1,7 +1,7 @@
 name: "[Task/Feature]"
 description: "This template is intended for creating tasks."
 title: "Ex. Creating a Dockerfile with nginx software; configuring ssl for https connections;"
-labes: task
+labels: task
 
 body:
   - type: input
